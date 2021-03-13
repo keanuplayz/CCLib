@@ -1,0 +1,361 @@
+{
+    "util": {
+        "unknown-command": {
+            "description": "This command is run if you type a command the bot cannot understand.",
+            "format": "Unknown command. Use `%(prefix) help` to view the command list."
+        }
+    },
+    "commands": {
+    },
+    "roles": {
+    },
+    "general": {
+        "satoshi": {
+            "format": "is karoshi"
+        },
+        "hi": {
+            "description": "Lea greets you",
+            "format": "hi!!! %(emote leaCheese)"
+        },
+        "bye": {
+            "description": "Lea says goodbye to you",
+            "format": "bye!!! %(emote leaCheese)"
+        },
+        "bugs": {
+            "description": "HAVE YOU TRIED TURNING IT OFF AND ON AGAIN?",
+            "embed": {
+                "title": ".cc bugs",
+                "url": "https://cdn.discordapp.com/attachments/380588134712475665/383705658731659266/tumblr_mtud5kX2T71r7fahjo1_250.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/380588134712475665/383705658731659266/tumblr_mtud5kX2T71r7fahjo1_250.gif"
+                }
+            }
+        },
+        "BUG": {
+            "description": "%(emote emilieWhy) alias",
+            "embed": {
+                "title": ".cc BUG",
+                "url": "https://cdn.discordapp.com/attachments/286824914604916747/446126154303406080/emilieWhyyyyyyyy.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/286824914604916747/446126154303406080/emilieWhyyyyyyyy.gif"
+                }
+            }
+        },
+        "cheater": {
+            "description": "accuses someone of being a C H E A T E R",
+            "format": "%((set victim (find-user (nth 0 (args)))) (if (victim) (strcat \"<@\" (victim) \"> \" (emote apolloPoint) (emote apolloShout) \" I GOT YOU NOW!\") \"could not find the cheater.\"))",
+            "options": {
+                "args": [
+                    {
+                        "key": "args",
+                        "prompt": "Who is the cheater?",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "cloudlea": {
+            "description": "displays an image of Lea on a cloud",
+            "embed": {
+                "title": ".cc cloudlea",
+                "url": "https://cdn.discordapp.com/attachments/373163281755537420/380813466354843649/steam-cloud-600x368.png",
+                "image": {
+                    "url": "https://images-ext-1.discordapp.net/external/C8ZfRnUDaIaHkZNgR6TP81kCEbc1YJrtsnG5J-TTSzM/https/cdn.discordapp.com/attachments/373163281755537420/380813466354843649/steam-cloud-600x368.png?width=500&height=307"
+                }
+            }
+        },
+        "language": {
+            "description": "displays that gif of Lea and the JS sign",
+            "embed": {
+                "title": ".cc language",
+                "url": "https://cdn.discordapp.com/attachments/376138665954377728/381560390384877578/Javascript_DeathStareLea.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/376138665954377728/381560390384877578/Javascript_DeathStareLea.gif"
+                }
+            }
+        },
+        "lewd": {
+            "commandReactions": ["ohno"]
+        },
+        "popsicle": {
+            "description": "displays Lea eating a popsicle",
+            "embed": {
+                "title": ".cc popsicle",
+                "url": "https://media.discordapp.net/attachments/397800800736378880/400833387725586434/unknown.png",
+                "image": {
+                    "url": "https://media.discordapp.net/attachments/397800800736378880/400833387725586434/unknown.png"
+                }
+            }
+        },
+        "poleace": {
+            "description": "The Lea Police",
+            "embed": {
+                "title": "WEEWOOWEEWOOWEEWOOWEEWOO",
+                "url": "https://media.discordapp.net/attachments/493480361137799198/577210409719955466/PoLeaCe.gif",
+                "image": {
+                    "url": "https://media.discordapp.net/attachments/493480361137799198/577210409719955466/PoLeaCe.gif"
+                }
+            }
+        },
+        "smite": {
+            "description": "Smites a cheater!",
+            "format": "%((set victim (find-user (nth 0 (args)))) (if (victim) (strcat \"<@\" (victim) \"> _is smited with a bolt of justice!_\") \"could not find the target.\"))",
+            "options": {
+                "args": [
+                    {
+                        "key": "args",
+                        "prompt": "Who requires the application of justice?",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "thinking": {
+            "description": "reacts with the standard thonk",
+            "commandReactions": ["leaTHINK"]
+        },
+        "triggered": {
+            "description": "mildly angery Lea",
+            "DOESNOTEXISToriginalSource": "https://cdn.discordapp.com/attachments/374851126627008514/382063690557685760/Lea_triggered.gif",
+            "embed": {
+                "title": "...WHY?!?!",
+                "url": "https://media.discordapp.net/attachments/535539399816118303/615836451485253645/lea_triggered_without_text.gif",
+                "image": {
+                    "url": "https://media.discordapp.net/attachments/535539399816118303/615836451485253645/lea_triggered_without_text.gif"
+                }
+            }
+        },
+        "verytriggered": {
+            "description": "*severely* angery Lea",
+            "DOESNOTEXISToriginalSource": "https://cdn.discordapp.com/attachments/381866628108910593/382331699213893632/triggeredlea.gif",
+            "embed": {
+                "title": "何？",
+                "url": "https://cdn.discordapp.com/attachments/535539399816118303/615839009733607444/herewegoagain.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/535539399816118303/615839009733607444/herewegoagain.gif"
+                }
+            }
+        },
+        "triggered-original": {
+            "description": "UNDOCUMENTED",
+            "embed": {
+                "title": "original version to preserve some means of credit to the original memer. sorry about this",
+                "url": "https://cdn.discordapp.com/attachments/374851126627008514/382063690557685760/Lea_triggered.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/374851126627008514/382063690557685760/Lea_triggered.gif"
+                }
+            }
+        },
+        "verytriggered-original": {
+            "description": "UNDOCUMENTED",
+            "embed": {
+                "title": "original version to preserve some means of credit to the original memer. sorry about this",
+                "url": "https://cdn.discordapp.com/attachments/381866628108910593/382331699213893632/triggeredlea.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/381866628108910593/382331699213893632/triggeredlea.gif"
+                }
+            }
+        },
+        "HI!": {
+            "description": "Deal With It Lea™.",
+            "embed": {
+                "title": ".cc HI!",
+                "url": "https://cdn.discordapp.com/attachments/373163281755537420/381790329550143488/Deal_with_it_Lea.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/373163281755537420/381790329550143488/Deal_with_it_Lea.gif"
+                }
+            }
+        },
+        "vote": {
+            "description": "reacts with the proper vote emotes for ease of vote",
+            "commandReactions": ["leaHAPPY", "leaTHINK", "leaBAT"]
+        },
+        "ohno": {
+            "format": ":(",
+            "embed": {
+                "title": ".cc ohno",
+                "url": "https://cdn.discordapp.com/emojis/400836365295812619.png",
+                "image": {
+                    "url": "https://cdn.discordapp.com/emojis/400836365295812619.png"
+                }
+            }
+        },
+        "work": {
+            "description": "Why?",
+            "embed": {
+                "title": ".cc work",
+                "url": "https://cdn.discordapp.com/emojis/337987528625881090.png",
+                "image": {
+                    "url": "https://cdn.discordapp.com/emojis/337987528625881090.png"
+                }
+            }
+        },
+        "balls": {
+            "description": "displays that one image that Lachsen is oh-so \"proud\" of",
+            "embed": {
+                "title": ".cc balls",
+                "url": "https://cdn.discordapp.com/attachments/143364538958348288/368033879162093581/balls.png",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/143364538958348288/368033879162093581/balls.png"
+                }
+            }
+        },
+        "vrps": {
+            "description": "TheRusty22's oh-so-strange and beautiful mashup of Sergey, `balls`, and `language`",
+            "embed": {
+                "title": ".cc vrps",
+                "url": "https://cdn.discordapp.com/attachments/143364538958348288/409861255046889472/CC_SergayVRPs_062.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/143364538958348288/409861255046889472/CC_SergayVRPs_062.gif"
+                }
+            }
+        },
+        "get": {
+            "description": "Gives you links to various places where you can get CrossCode.",
+            "format": "Steam: https://store.steampowered.com/app/368340/\nGOG: https://www.gog.com/game/crosscode"
+        },
+        "thanks": {
+            "description": "Writes a template thank-you message to the devs :)",
+            "embed": {
+                "description": "From %(name (cause)),\n\t%(random-element '(\"Keep up the good work!\" \"You guys are awesome.\"))\nTo,\n\t\tRadical Fish Games"
+            }
+        },
+        "installing-mods": {
+            "description": "Information on how to install mods.",
+            "embed": {
+                "title": "Installation Guide",
+                "description": "CCLoader's guide to modloader installation: https://github.com/CCDirectLink/CCLoader/wiki/Installing-CCLoader\nCCLoader's guide to mod installation: https://github.com/CCDirectLink/CCLoader/wiki/Install-mods\n20kdc's guide to modloader installation: https://20kdc.duckdns.org/ccmodloader/"
+            }
+        }
+    },
+    "nsfw": {
+        "lewd": {
+            "description": "The LeaDaki™. 'Nuff said.",
+            "nsfw": true,
+            "embed": {
+                "title": "( ͡° ͜ʖ ͡°)",
+                "url": "https://images-ext-1.discordapp.net/external/RNdA2IorjgoHeslQ9Rh8oos1nkK56Y6_w4sjUaFVBC4/https/image.ibb.co/jJLNiG/leadaki.png",
+                "image": {
+                    "url": "https://images-ext-1.discordapp.net/external/RNdA2IorjgoHeslQ9Rh8oos1nkK56Y6_w4sjUaFVBC4/https/image.ibb.co/jJLNiG/leadaki.png?width=185&height=250"
+                }
+            }
+        },
+        "error": {
+            "description": "A command that errors if run in a non-NSFW channel. Does nothing else.",
+            "nsfw": true
+        }
+    },
+    "anime": {
+        "EXPLOSION!": {
+            "description": "the megumin meme",
+            "format": "💥",
+            "embed": {
+                "title": ".cc -anime EXPLOSION!",
+                "url": "https://cdn.discordapp.com/attachments/380588134712475665/383777401529696256/tenor.gif",
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/380588134712475665/383777401529696256/tenor.gif"
+                }
+            }
+        }
+    },
+    "formatter": {
+        "help-syntax": {
+            "description": "Information about the formatter system",
+            "format": "**Format Syntax**\n\nThe formatter has a few rules.\n`%/%/` outside of any invocation are repeated verbatim and will ignore `%%` and `%/` until the next space. This is for URL compatibility.\n`%%` will cause the next character to ignore these rules, except `(` outside of an invocation. This rule overrides any later rule, and can override the previous rule if the start gets escaped.\n`%%(` will begin an invocation, space separates arguments within an invocation, `)` ends it, and invocations can nest with further `()` - without the `%%`.\n`/ABC/` is equivalent to `%%(emote ABC)` outside of lists and anything between `%/%/` and a space, for the sake of URLs.\nPrefixing a value with `'` wraps it as so: `(%%' value)`\nIt is important to note that it *does* work to put invocations in a list, as so: `%%((thing1) (thing2))`; the result of the last invocation will be returned.\nThis can be used to silence invocations.\nFinally, double-quotes (\") around some text escapes everything except other double-quotes.\n\nFor further details, please see the other commands in the -formatter group."
+        },
+        "help-execution": {
+            "description": "About invocation execution and recursion",
+            "format": "**Invocation execution and recursion**\n\nInvocations generally evaluate their parameters as invocations. (There are some exceptions.)\nAn invocation that is a string is returned as-is, but lists are evaluated.\nInvocations may thus be nested, such as `(name (cause))`.\nIn the case of random-element, for example, you may not want this; see the ' invocation for a way around this."
+        },
+        "help-types": {
+            "description": "About types & the 'number?' invocation",
+            "format": "**Types**\n\nThe formatter has two types, strings and lists.\nNumbers are strings that are then strictly checked to be safe integers with no additional padding.\nThe 'number?' invocation checks to see if a value is a valid number."
+        },
+        "help-booleans": {
+            "description": "About booleans and the not invocation",
+            "format": "**Booleans**\n\nFalse is an empty string. Anything else is true.\nHowever, if true needs to be returned by a library function, it will be returned as 'true'.\nThe not invocation is equivalent to `(if A \"\" \"true\")` where A is the parameter; that is, it returns the boolean opposite of the input."
+        },
+
+        "help-'": {
+            "description": "The ' invocation",
+            "format": "**The ' invocation**\n\nThe ' invocation uses a special prefix syntax, where `'1` is equivalent to `(%%' 1)`. It has a single parameter.\nThe parameter is returned as-is - *without evaluation*.\nExample: `%%(random-element '(1 2 3))` -> `1` or `2` or `3`"
+        },
+        "help-list": {
+            "description": "The 'list' invocation",
+            "format": "**The 'list' invocation**\n\nThe 'list' invocation has an arbitrary amount of parameters. It returns a list containing them all in order after evaluation."
+        },
+        "help-length": {
+            "description": "The 'length' invocation",
+            "format": "**The 'length' invocation**\n\nThe 'length' invocation takes a single parameter and returns its length."
+        },
+        "help-nth": {
+            "description": "The 'nth' invocation",
+            "format": "**The 'nth' invocation**\n\nThe 'nth' invocation takes two parameters: an index and a list.\nIt returns a value from the given index of the list; these indexes begin at 0.\nExample: `%%(nth 0 '(3 2 1))` -> `3`"
+        },
+        "help-comparison": {
+            "description": "The comparison invocations (<=, >=, <, >, ==, !=)",
+            "format": "**The comparison invocations**\n\n<=, >=, <, > take two parameters, which are numbers, perform a comparison, and return the result.\n== and != work on strings, too."
+        },
+        "help-maths": {
+            "description": "The maths invocations (+, -, \\*)",
+            "format": "**The maths invocations**\n\n+ and \\* take an arbitrary amount of numeric parameters, and add%/multiply them together respectively.\nGiven no input, + will return 0 and \\* will return 1.\n- meanwhile requires 2 numeric parameters, subtracting the second from the first and returning the result."
+        },
+        "help-random-element": {
+            "description": "The 'random-element' invocation",
+            "format": "**The 'random-element' invocation**\n\nThe 'random-element' invocation takes a single parameter, which is a list of possible outputs.\nIt returns one, unless this doesn't make sense, in which case it will return whatever it likes.\nExample: See the ' invocation."
+        },
+        "help-random": {
+            "description": "The 'random' invocation",
+            "format": "**The 'random' invocation**\n\nThe 'random' invocation takes a single parameter, which is the number of possible results, and returns a number from 0 to that number - 1.\nIf the input is less than 0, expect shenanigans."
+        },
+        "help-strcat": {
+            "description": "The 'strcat' invocation",
+            "format": "**The 'strcat' invocation**\n\nThe 'strcat' invocation concatenates all the parameters given, which must be strings, returning the result."
+        },
+
+        "help-if": {
+            "description": "The 'if' invocation",
+            "format": "**The 'if' invocation**\n\nThe 'if' invocation takes two to three parameters.\nIt will only run & return the result of the second if the first is true, and will run & return the result of the third (if present) otherwise."
+        },
+        "help-set": {
+            "description": "The 'set' invocation",
+            "format": "**The 'set' invocation**\n\nThe 'set' invocation takes two parameters: a string for an invocation name, and some arbitrary value.\nIt creates a new invocation type at the relevant scope that simply returns the given value."
+        },
+        "help-set-func": {
+            "description": "The 'set-func' invocation",
+            "format": "**The 'set-func' invocation**\n\nThe 'set-func' invocation never ever evaluates its parameters.\nThe first parameter can be a string or a list.\nIf it's a string, the second parameter must also be a string, and set-func copies the function referred to by the second parameter to the first.\nIf the first parameter is not a string, it must be a list of the form (name arg1 arg2 arg3) or such.\nThere may be as many or as few arguments as you want, but the name must always be present and a string.\nThe second parameter is code to run in the function that will be created with the given name and parameters.\nThe parameters are evaluated and copied to local variables in a new scope (inside the scope where set-func was run) before your code is run.\nCombined with the `bootstrap` user setting, this allows you to create simple macros."
+        },
+        "help-emote": {
+            "description": "The 'emote' invocation",
+            "format": "**The 'emote' invocation**\n\nThe 'emote' invocation has a single parameter: The reference used to get the emote.\nThis can be at least an emote ID, emote name, or the actual emote in written form.\nIt is subject to per-guild overrides.\nExample: `%%(emote leaCheese)` -> `%(emote leaCheese)`"
+        },
+        "help-quote": {
+            "description": "The 'quote', 'quote-cause', 'quote-silent', 'quote-silent-cause' invocations",
+            "format": "**The 'quote', 'quote-cause', 'quote-silent', 'quote-silent-cause' invocations**\n\nThe 'quote' invocation receives a Discord message URL (or simply a channel ID followed by a message ID, separated by %/), and regurgitates it as a quotation.\nThis will fail if the Writer (for guild settings, this means 'the guild') doesn't have access.\nExample: `%%(quote https://discordapp.com/channels/143364538958348288/367424200991965184/604035298686402770)`\nAdditional note: 'quote-cause' is this but has stricter permissions checks, so the Cause must *also* have access.\nAdditional additional note: 'quote-silent' avoids pinging the original message author.\nAdditional additional additional note: 'quote-silent-cause' combines these."
+        },
+        "help-prefix": {
+            "description": "The 'prefix' invocation",
+            "format": "**The 'prefix' invocation**\n\nThe 'prefix' invocation returns the relevant bot prefix."
+        },
+        "help-cause": {
+            "description": "The 'cause' invocation",
+            "format": "**The 'cause' invocation**\n\nThe 'cause' invocation returns the user ID of the user who 'caused' the execution to take place."
+        },
+        "help-name": {
+            "description": "The 'name' invocation",
+            "format": "**The 'name' invocation**\n\nThe 'name' invocation takes a single parameter, the user ID to name.\nIt returns the local name of that user.\nFor safety reasons, the user must be a member of the relevant guild, or this will simply return their ID as-is."
+        },
+        "help-find-user": {
+            "description": "The 'find-user' invocation",
+            "format": "**The 'find-user' invocation**\n\nThe 'find-user' invocation takes a single parameter, a string representing that user.\nIt will return the user ID as a string, or false otherwise."
+        },
+        "help-args": {
+            "description": "The 'args' invocation",
+            "format": "**The 'args' invocation**\n\nThe 'args' invocation has no parameters, and returns the list of command arguments if relevant."
+        },
+        "help-embed": {
+            "description": "The 'embed' invocation",
+            "format": "**The 'embed' invocation**\n\nThe 'embed' invocation has one parameter: the embed description.\nDescriptions of valid embed descriptions will be shown via examples.\nDeleting an existing embed: `%%(embed \"\")`\nExample Image (note the ' - the embed details may come from other invocations):\n`%%(embed '(image \"CrossCode Stream Drawing; see https://discordapp.com/channels/143364538958348288/461638004490895390/602281244977528832\" \"https://lh6.googleusercontent.com/uUAgjHNYZu7IWdIaV_WtDafdo6vqpJsam63_XxvN4d3107yMlESv2XTHQuWFoENLUCFQuCtmNLbq_A=w1366-h679\"))`"
+        }
+    }
+}
