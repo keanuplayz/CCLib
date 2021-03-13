@@ -14,7 +14,10 @@ This is where CCBot's structure shines, in my opinion. The JSON commands are str
         "commandname": {
             "description": "Command description here.",
             "format": "Content of the message. Supports formatted statements. %(emote leaCheese)",
-            "embed": {
+            "nsfw": "false", // command can only be run in NSFW channels if true
+            "commandReactions": ["emote", "names", "here"],
+            "options": "refer to commando.CommandInfo",
+            "embed": { // refer to discord.MessageEmbedOptions
                 "title": "Embed title here.",
                 "url": "URL that title points to here.",
                 "image": {
