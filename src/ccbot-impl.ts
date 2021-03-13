@@ -30,7 +30,7 @@ export default class CCBotImpl extends CCBot {
         this.registry = new CCBotCommandRegistry(this);
         this.dispatcher = new CCBotCommandDispatcher(this, this.registry);
         registerAllCommands(this);
-        registerAllEntities(this, twitchClientId, ytClientId);
+        registerAllEntities(this);
         this.setProvider(new CCBotSettingProvider(this.dynamicData.settings));
     }
 }
